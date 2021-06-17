@@ -23,6 +23,11 @@ body {
   line-height: 24px;
   background-color: #fff;
   overflow-x: hidden;
+  background-image: url(../img/hero-bg-pink.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-position: calc(50% + 418px) -26px;
   color: #170C04;
 }
 
@@ -54,9 +59,11 @@ img {
 
 /* SITE HEADER */
 .dog-header {
+  position: relative;
+  z-index: -1;
   padding-top: 31px;
   padding-bottom: 31px;
-  background: transparent;
+  background-color: transparent;
 }
 
 .dog-header__container {
@@ -139,12 +146,6 @@ img {
   padding-top: 93px;
   padding-bottom: 130px;
   position: relative;
-  background-image: url(../img/hero-bg-pink.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-position: calc(50% + 418px) -26px;
-
 }
 
 .site-hero::before{
@@ -318,5 +319,5 @@ img {
   font-size: 16px;
   line-height: 24px;
   color: #E27B3A;
-
+}
 
