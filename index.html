@@ -7,27 +7,82 @@
   <title>Site</title>
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/normalize-mini.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
-<section class="site-hero">
-  <div class="container">
-    <div class="site-hero__contents">
-      <h1 class="site-hero__title">Dog is my Copilot.</h1>
+  <header class="dog-header">
+    <div class="dog-header__container container">
+      <a href="index.html" class="dog-header__logo-link">
+        <img src="/img/icon/header-logo.svg" alt="logo" class="dog-header__logo" width="86" height="39">
+      </a>
+      <nav>
 
-      <ul class="site-hero__list">
-        <li class="hero-list__item">
-          <a class="link_buy__now" href="#">Buy Now</a>
-        </li>
-        <li class="hero-list__item">
-          <a class="link-see__detal" href="#">See Details</a>
-        </li>
-      </ul>
+        <ul class="dog-header__list">
+          <li class="dog-header__item"><a href="products.html">Products</a></li>
+          <li class="dog-header__item"><a href="dog-care.html">Dog care</a></li>
+          <li class="dog-header__item"><a href="about.html">About</a></li>
+          <li class="dog-header__item"><a href="popular.html">Popular</a></li>
+        </ul>
+      </nav>
+      <div class="dog-header__btns">
+        <button class="dog-header__btn search"></button>
+        <button class="dog-header__btn bascet"></button>
+        <button class="dog-header__btn burger"></button>
+      </div>
     </div>
-  </div>
-</section>
+  </header>
+
+  <main>
+<!--  HEROOO    -->
+    <section class="site-hero">
+      <div class="container">
+        <div class="site-hero__contents">
+          <h1 class="site-hero__title">Dog is my Copilot.</h1>
+
+          <ul class="site-hero__list">
+            <li class="hero-list__item">
+              <a class="link_buy__now" href="#">Buy Now</a>
+            </li>
+            <li class="hero-list__item">
+              <a class="link-see__detal" href="#">See Details</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    
+    <!-- FEATURES -->
+    <section class="features">
+      <h2 class="visually-hidden">Features</h2>
+      <div class="features__container container">
+        <ul class="features__list">
+          <li class="features__item">
+            <h3 class="features__item__title">Best Quality Products Pen Foods</h3>
+            <p class="features__item__desc">Dogs leave paw prints forever on our hearts. A dog shade the.</p>
+            <a class="features__item__link" href="#">See details</a>
+          </li>
+
+          <li class="features__item">
+            <h3 class="features__item__title">Best Quality Products Pen Foods</h3>
+            <p class="features__item__desc">Dogs leave paw prints forever on our hearts. A dog shade the.</p>
+            <a class="features__item__link" href="#">See details</a>
+          </li>
+          
+          <li class="features__item">
+            <h3 class="features__item__title">Best Quality Products Pen Foods</h3>
+            <p class="features__item__desc">Dogs leave paw prints forever on our hearts. A dog shade the.</p>
+            <a class="features__item__link" href="#">See details</a>
+          </li>
+        </ul>
+      </div>
+
+    </section>
+  </main>
+
 
 </body>
 </html>
