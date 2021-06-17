@@ -16,13 +16,9 @@ body {
   height: 100%;
   padding: 0;
   margin: 0;
-  font-family: 'Roboto', "Arial", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 24px;
+  font-family: "Arial", sans-serif;
   background-color: #fff;
-  color: #170C04;
+  color: #222;
 }
 
 img {
@@ -43,90 +39,9 @@ img {
 
 /* CONTAINER */
 .container {
-  max-width: 1184px;
+  max-width: 1100px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 20px;
   padding-right: 20px;
-}
-
-
-
-/* SITE HEADER */
-.dog-header {
-  padding-top: 31px;
-  padding-bottom: 31px;
-  background: transparent;
-}
-
-.dog-header__container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.dog-header__container nav {
-  display: flex;
-  align-items: center;
-}
-
-.dog-header__logo {
-  display: block;
-}
-
-.dog-header__list {
-  display: flex;
-  align-items: center;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.dog-header__item {
-  margin-right: 55px;
-}
-
-.dog-header__item a {
-  font-size: 16px;
-  line-height: 19px;
-  color: #222;
-  text-decoration: none;
-  transition: color 0.3s ease,
-  border 0.3s ease;
-}
-
-.dog-header__item a:hover {
-  color: #E27B3A;
-  border-bottom: 1px solid #E27B3A;
-}
-
-.dog-header__btn {
-  margin-left: 41px;
-  background-color: transparent;
-  border: 1px solid transparent;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: contain;
-  width: 24px;
-  height: 24px;
-  cursor: pointer;
-  transition: opacity 0.3s ease;
-  border-radius: 3px;
-}
-
-.dog-header__btn:hover {
-  opacity: 0.6;
-}
-
-.search {
-  background-image: url(../img/icon/search.svg);
-  
-}
-
-.bascet {
-  background-image: url(../img/icon/bascek.svg);
-}
-
-.burger {
-  background-image: url(../img/icon/burger.svg);
 }
